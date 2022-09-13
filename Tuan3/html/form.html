@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./../css/form_style.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset id="signin_form">
+            <legend>
+                Thong tin dang ky
+            </legend>
+            <div id="label_form">
+                <label for="lblHT">Họ tên</label><br><br>
+                <label for="lblNS">Ngày sinh</label><br><br>
+                <label for="lblGT">Giới tính</label><br><br>
+            </div>
+            <div id="input_form">
+                <input type="text" name="txtHT" id="lblHT" placeholder="Nguyễn Văn A" maxlength="60"><br><br>
+                <input type="date" name="txtNS" id="lblNS"><br><br>
+                <input type="radio" name="radioGT" id="r_Nam" checked value="Nam">
+                <label for="r_Nam">Nam</label>
+                <input type="radio" name="radioGT" id="r_Nu" value="Nu">
+                <label for="r_Nu">Nu</label>
+            </div>
+            <div class="clear"></div>
+            <input type="submit" value="sigin">
+            <input type="submit" value="reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
